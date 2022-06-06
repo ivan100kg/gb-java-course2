@@ -5,6 +5,7 @@ import java.sql.*;
 public class MainApp {
     private static Connection connection;
     private static Statement statement;
+    private static PreparedStatement preparedStatement;
     public static void main(String[] args) {
         try {
             connect();
@@ -24,27 +25,19 @@ public class MainApp {
                     resultSet.getString("name") + " " +
                     resultSet.getInt("score"));
         }
+
     }
 
     public static void insertEx() throws SQLException {
         statement.executeUpdate("INSERT INTO students (name, score) VALUES ('Lisa', 35);");
-
     }
 
     public static void connect() {
         try {
             Class.forName("org.sqlite.JDBC");
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        try {
             connection = DriverManager.getConnection("jdbc:sqlite:main.db");
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-        try {
             statement = connection.createStatement();
-        } catch (SQLException e) {
+        } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
