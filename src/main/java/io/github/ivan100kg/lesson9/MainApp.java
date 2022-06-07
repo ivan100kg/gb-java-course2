@@ -1,4 +1,4 @@
-package io.github.ivan100kg;
+package io.github.ivan100kg.lesson9;
 
 import java.sql.*;
 
