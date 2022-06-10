@@ -9,7 +9,7 @@
 -- Пара серия-номер пасорта должны быть уникальны в таблице Студенты;
 -- Найти три премета, которые сдали наибольшее количество студентов;
 
-Solve:
+-- Solve:
 CREATE TABLE students (id SERIAL, name VARCHAR(15), series VARCHAR(4), number VARCHAR(6));
 CREATE TABLE subjects (id SERIAL, name VARCHAR(30));
 CREATE TABLE progress (id SERIAL, student VARCHAR(15), subject VARCHAR(30), mark INT);
