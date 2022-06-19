@@ -61,7 +61,7 @@ public class MainApp {
             System.out.println("--------------------------------");
 //            session.remove(person);
 //            session.remove(product);
-            person.addProduct(product);
+//            person.addProduct(product);
 
 
             session.getTransaction().
