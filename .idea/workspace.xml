@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a3784e-a48d-4e90-b161-7fe31a59cf87" name="Changes" comment="Do homework#9">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework9/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework9/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework9/Table.java" afterDir="false" />
+    <list default="true" id="d7a3784e-a48d-4e90-b161-7fe31a59cf87" name="Changes" comment="Add file OrderService.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/ShapesClassNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/SimpleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/simple/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/simple/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/examples/SimpleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/examples/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework12/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework12/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/myContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,32 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "c2775f26c2851ac451df6074d9f5172a"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;,
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite",
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.ivan100kg.lesson11.enttity" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="io.github.ivan100kg" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="Application.io.github.ivan100kg.homework12.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.homework9.MainApp" />
       <module name="gb-java-course2" />
@@ -77,12 +87,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.github.ivan100kg.MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.MyApp" />
+    <configuration name="io.github.ivan100kg.homework11.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.homework11.MainApp" />
       <module name="gb-java-course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.ivan100kg.lesson9.*" />
+          <option name="PATTERN" value="io.github.ivan100kg.homework11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.github.ivan100kg.homework12.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.homework12.MainApp" />
+      <module name="gb-java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.ivan100kg.homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.github.ivan100kg.lesson11.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.lesson11.MainApp" />
+      <module name="gb-java-course2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.ivan100kg.lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,27 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gb-java-course2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.ivan100kg.lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.ivan100kg" />
-      <option name="MAIN_CLASS_NAME" value="io.github.ivan100kg.MainAppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.github.ivan100kg.homework12.MainApp" />
+        <item itemvalue="Application.io.github.ivan100kg.homework11.MainApp" />
+        <item itemvalue="Application.io.github.ivan100kg.lesson11.MainApp" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.io.github.ivan100kg.lesson9.MainApp" />
-        <item itemvalue="Application.io.github.ivan100kg.MyApp" />
-        <item itemvalue="JUnit.MainAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,51 +162,364 @@
       <workItem from="1654534935367" duration="7000" />
       <workItem from="1654535001977" duration="795000" />
       <workItem from="1654536492258" duration="1550000" />
-      <workItem from="1654575355624" duration="7617000" />
+      <workItem from="1654575355624" duration="7990000" />
+      <workItem from="1654776508564" duration="3167000" />
+      <workItem from="1654839240560" duration="446000" />
+      <workItem from="1654839731933" duration="51000" />
+      <workItem from="1654849527422" duration="1252000" />
+      <workItem from="1655030550603" duration="661000" />
+      <workItem from="1655111225365" duration="15000" />
+      <workItem from="1655475587935" duration="10215000" />
+      <workItem from="1655644367439" duration="5395000" />
+      <workItem from="1655688678666" duration="17000" />
+      <workItem from="1655742929848" duration="1940000" />
+      <workItem from="1655815562685" duration="2572000" />
+      <workItem from="1655822457916" duration="744000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1654501349662</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00007" summary="Add Annotations">
+      <created>1654583689201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1654501349662</updated>
+      <updated>1654583689201</updated>
     </task>
-    <task id="LOCAL-00002" summary="Update pom.xml">
-      <created>1654534093174</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00008" summary="Add Student.java">
+      <created>1654583707085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1654534093174</updated>
+      <updated>1654583707085</updated>
     </task>
-    <task id="LOCAL-00003" summary="Update MainApp.java">
-      <created>1654534105553</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00009" summary="Fix homework9">
+      <created>1654839617928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1654534105553</updated>
+      <updated>1654839617928</updated>
     </task>
-    <task id="LOCAL-00004" summary="Update MainApp.java">
-      <created>1654538222042</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00010" summary="Overcame the lesson #10">
+      <created>1654839666190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1654538222042</updated>
+      <updated>1654839666190</updated>
     </task>
-    <task id="LOCAL-00005" summary="Update MainApp.java">
-      <created>1654578336534</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00011" summary="Do homework #10">
+      <created>1654839679352</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1654578336534</updated>
+      <updated>1654839679352</updated>
     </task>
-    <task id="LOCAL-00006" summary="Do homework#9">
-      <created>1654583665972</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00012" summary="Fix homework #10">
+      <created>1654851201919</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1654583665972</updated>
+      <updated>1654851201919</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00013" summary="Fix homework #10">
+      <created>1654851217876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654851217876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Include hibernate dependencies">
+      <created>1655475765424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655475765424</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Author.java">
+      <created>1655480781641</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480781641</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Book.java">
+      <created>1655480792140</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480792140</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Catalog.java">
+      <created>1655480814638</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480814638</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add MainApp.java">
+      <created>1655480830926</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480830926</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add Reader.java">
+      <created>1655480846506</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480846507</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add Review.java">
+      <created>1655480861136</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480861136</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix pom.xml">
+      <created>1655480893534</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480893534</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add hiberna">
+      <created>1655480906075</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655480906075</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Do homework #11">
+      <created>1655645199454</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655645199454</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add Person.java">
+      <created>1655645279438</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655645279438</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add Product.java">
+      <created>1655645288083</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655645288083</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add MainApp.java">
+      <created>1655656789454</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655656789454</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix MainApp.java">
+      <created>1655656801477</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1655656801477</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add Item.java">
+      <created>1655743089824</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1655743089824</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add Item.java">
+      <created>1655744840876</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655744840876</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Do homework #12">
+      <created>1655744873516</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1655744873516</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update pom.xml add spring">
+      <created>1655816995708</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655816995708</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add file AdvBeanInterfaceImpl.java">
+      <created>1655822512641</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822512641</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add file AnimalsClassNameGenerator.java">
+      <created>1655822524228</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822524228</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add file AnnotatedBean.java">
+      <created>1655822537588</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822537588</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add file AnnotatedSim&#10;Bean.java">
+      <created>1655822547999</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822547999</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add file App.java">
+      <created>1655822593610</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822593611</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add file AppConfig.java">
+      <created>1655822607315</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822607315</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add file applicationContext.xml">
+      <created>1655822622632</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822622632</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add file BeanInterface.java">
+      <created>1655822645661</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822645661</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add file ClassNameGenerator.java">
+      <created>1655822655166</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822655166</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add file CodeCreator.java">
+      <created>1655822673270</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822673270</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add file CppCodeCreator.java">
+      <created>1655822683533</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822683533</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add file JavaCodeCreator.java">
+      <created>1655822698115</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822698115</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add file MailService.java">
+      <created>1655822709802</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822709802</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add file MainClass.java">
+      <created>1655822717077</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822717077</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add file myContext.xml">
+      <created>1655822735236</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822735236</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add file appContext.xml">
+      <created>1655822911748</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822911748</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Update files appContext.xml">
+      <created>1655822935599</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822935599</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Add file AppSpring.java">
+      <created>1655822959197</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822959197</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add file BeanInterfaceImpl.java">
+      <created>1655822980739</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822980739</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Add file ClassNameGenerator.java">
+      <created>1655822988688</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822988688</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Add file CodeCreator.java">
+      <created>1655822995849</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1655822995849</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add file CppCodeCreator.java">
+      <created>1655823007403</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1655823007403</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Add file JavaCodeCreator.java">
+      <created>1655823015895</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1655823015895</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Add file OrderService.java">
+      <created>1655823027823</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1655823027823</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,10 +537,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Update pom.xml" />
-    <MESSAGE value="Update MainApp.java" />
-    <MESSAGE value="Do homework#9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do homework#9" />
+    <MESSAGE value="Add MainApp.java" />
+    <MESSAGE value="Fix MainApp.java" />
+    <MESSAGE value="Add Item.java" />
+    <MESSAGE value="Do homework #12" />
+    <MESSAGE value="Update pom.xml add spring" />
+    <MESSAGE value="Add file AdvBeanInterfaceImpl.java" />
+    <MESSAGE value="Add file AnimalsClassNameGenerator.java" />
+    <MESSAGE value="Add file AnnotatedBean.java" />
+    <MESSAGE value="Add file AnnotatedSim&#10;Bean.java" />
+    <MESSAGE value="Add file App.java" />
+    <MESSAGE value="Add file AppConfig.java" />
+    <MESSAGE value="Add file applicationContext.xml" />
+    <MESSAGE value="Add file BeanInterface.java" />
+    <MESSAGE value="Add file MailService.java" />
+    <MESSAGE value="Add file MainClass.java" />
+    <MESSAGE value="Add file myContext.xml" />
+    <MESSAGE value="Add file appContext.xml" />
+    <MESSAGE value="Update files appContext.xml" />
+    <MESSAGE value="Add file AppSpring.java" />
+    <MESSAGE value="Add file BeanInterfaceImpl.java" />
+    <MESSAGE value="Add file ClassNameGenerator.java" />
+    <MESSAGE value="Add file CodeCreator.java" />
+    <MESSAGE value="Add file CppCodeCreator.java" />
+    <MESSAGE value="Add file JavaCodeCreator.java" />
+    <MESSAGE value="Add file OrderService.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add file OrderService.java" />
   </component>
 </project>
