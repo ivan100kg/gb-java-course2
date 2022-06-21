@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans.xsd
-	http://www.springframework.org/schema/context
-	http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--	http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--	http://www.springframework.org/schema/context-->
+<!--	http://www.springframework.org/schema/context/spring-context.xsd">-->
 
-    <context:component-scan base-package="com.geekbrains.spring" />
+<!--    <context:component-scan base-package="io.github.ivan100kg.lesson13" />-->
 
-    <bean id="javaCodeCreator" class="io.github.ivan100kg.lesson13.examples.JavaCodeCreator">
-        <property name="classNameGenerator">
-            <ref bean="animalsClassNameGenerator" />
-        </property>
-    </bean>
+<!--    <bean id="javaCodeCreator" class="io.github.ivan100kg.lesson13.examples.JavaCodeCreator">-->
+<!--        <property name="classNameGenerator">-->
+<!--            <ref bean="animalsClassNameGenerator" />-->
+<!--        </property>-->
+<!--    </bean>-->
 
-    <bean id="cppCodeCreator" class="com.geekbrains.spring.examples.CppCodeCreator">
-        <constructor-arg ref="animalsClassNameGenerator" />
-    </bean>
+<!--    <bean id="cppCodeCreator" class="io.github.ivan100kg.lesson13.examples.CppCodeCreator">-->
+<!--        <constructor-arg ref="animalsClassNameGenerator" />-->
+<!--    </bean>-->
 
-    <bean id="animalsClassNameGenerator" class="com.geekbrains.spring.examples.AnimalsClassNameGenerator">
+<!--    <bean id="animalsClassNameGenerator" class="io.github.ivan100kg.lesson13.examples.AnimalsClassNameGenerator">-->
 
-    </bean>
+<!--    </bean>-->
 
-    <!--<bean id="annotatedSimpleBean" class="com.geekbrains.spring.examples.AnnotatedSimpleBean" />-->
+<!--    &lt;!&ndash;<bean id="annotatedSimpleBean" class="com.geekbrains.spring.examples.AnnotatedSimpleBean" />&ndash;&gt;-->
 
-    <bean id="simpleBean" class="com.geekbrains.spring.examples.SimpleBean" scope="prototype"/>
-</beans>
+<!--    <bean id="simpleBean" class="io.github.ivan100kg.lesson13.examples.SimpleBean" scope="prototype"/>-->
+<!--</beans>-->
