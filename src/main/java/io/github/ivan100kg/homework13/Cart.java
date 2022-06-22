@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
+@Component
 public class Cart {
     private List<Product> products;
 
@@ -24,5 +24,20 @@ public class Cart {
 
     public List<Product> getProducts() {
         return products;
+    }
+
+    public void printAll() {
+        if(products != null) {
+            products.forEach(System.out::println);
+        } else {
+            System.out.println("Cart is empty!");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Cart{" +
+                "products=" + products +
+                '}';
     }
 }

@@ -1,15 +1,8 @@
 package io.github.ivan100kg.homework13;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Product {
-    @Value("${product.id}")
     private int id;
-    @Value("${product.title}")
     private String title;
-    @Value("${product.cost}")
     private double cost;
 
     public Product() {

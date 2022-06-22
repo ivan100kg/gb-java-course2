@@ -3,6 +3,7 @@ package io.github.ivan100kg.homework13;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,6 +16,11 @@ public class ProductService {
 
     public ProductService() {
         System.out.println("Create products");
+    }
+
+    @PostConstruct
+    private void init() {   // после создания бина
+        System.out.println("Products were added");
         products = new ArrayList<>();
         map = new HashMap<>();
         products.add(new Product(1, "Bananas", 140));
