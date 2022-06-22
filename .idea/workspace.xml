@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a3784e-a48d-4e90-b161-7fe31a59cf87" name="Changes" comment="Do homework #13">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/my/AnotherBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/my/SimpleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/appContextNW.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/myApp.properties" afterDir="false" />
+    <list default="true" id="d7a3784e-a48d-4e90-b161-7fe31a59cf87" name="Changes" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/AnnotatedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/AnnotatedBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/AppSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/AppSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/current/SimpleBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/examples/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/lesson13/examples/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ivan100kg/homework13/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/myApp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myApp.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,63 +174,7 @@
       <workItem from="1655742929848" duration="1940000" />
       <workItem from="1655815562685" duration="2572000" />
       <workItem from="1655822457916" duration="7279000" />
-      <workItem from="1655903383000" duration="76000" />
-    </task>
-    <task id="LOCAL-00014" summary="Include hibernate dependencies">
-      <created>1655475765424</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1655475765424</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add Author.java">
-      <created>1655480781641</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480781641</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Add Book.java">
-      <created>1655480792140</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480792140</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Add Catalog.java">
-      <created>1655480814638</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480814638</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Add MainApp.java">
-      <created>1655480830926</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480830926</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Add Reader.java">
-      <created>1655480846506</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480846507</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Add Review.java">
-      <created>1655480861136</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480861136</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Fix pom.xml">
-      <created>1655480893534</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1655480893534</updated>
+      <workItem from="1655903383000" duration="4971000" />
     </task>
     <task id="LOCAL-00022" summary="Add hiberna">
       <created>1655480906075</created>
@@ -527,7 +463,63 @@
       <option name="project" value="LOCAL" />
       <updated>1655903433180</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add file ProductService.java">
+      <created>1655903482414</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903482414</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Add file OrderService.java">
+      <created>1655903491355</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903491355</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Add file myApp.properties">
+      <created>1655903513742</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903513742</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Add file appContextNW.xml">
+      <created>1655903525033</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903525033</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Add file Cart.java">
+      <created>1655903540973</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903540973</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Add file MainApp.java">
+      <created>1655903551449</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903551449</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Add test files">
+      <created>1655903570984</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903570984</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Refactoring">
+      <created>1655903593178</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903593178</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,12 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add file AnnotatedBean.java" />
-    <MESSAGE value="Add file AnnotatedSim&#10;Bean.java" />
-    <MESSAGE value="Add file App.java" />
-    <MESSAGE value="Add file AppConfig.java" />
-    <MESSAGE value="Add file applicationContext.xml" />
-    <MESSAGE value="Add file BeanInterface.java" />
     <MESSAGE value="Add file MailService.java" />
     <MESSAGE value="Add file MainClass.java" />
     <MESSAGE value="Add file myContext.xml" />
@@ -562,14 +548,20 @@
     <MESSAGE value="Add file CodeCreator.java" />
     <MESSAGE value="Add file CppCodeCreator.java" />
     <MESSAGE value="Add file JavaCodeCreator.java" />
-    <MESSAGE value="Add file OrderService.java" />
-    <MESSAGE value="Add file ProductService.java" />
     <MESSAGE value="Add file shapesClassNameGenerator.java" />
     <MESSAGE value="Add file ShopService.java" />
     <MESSAGE value="Add file SimpleBean.java" />
     <MESSAGE value="Add file UserData.java" />
     <MESSAGE value="Update config files" />
     <MESSAGE value="Do homework #13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do homework #13" />
+    <MESSAGE value="Add file ProductService.java" />
+    <MESSAGE value="Add file OrderService.java" />
+    <MESSAGE value="Add file myApp.properties" />
+    <MESSAGE value="Add file appContextNW.xml" />
+    <MESSAGE value="Add file Cart.java" />
+    <MESSAGE value="Add file MainApp.java" />
+    <MESSAGE value="Add test files" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>

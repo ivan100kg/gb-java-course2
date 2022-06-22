@@ -5,11 +5,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Product {
+    @Value("${product.id}")
     private int id;
+    @Value("${product.title}")
     private String title;
+    @Value("${product.cost}")
     private double cost;
 
     public Product() {
+        System.out.println("Default Product is created");
     }
 
     public Product(int id, String title, double cost) {

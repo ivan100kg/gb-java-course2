@@ -6,7 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+
+
 public class Cart {
     private List<Product> products;
 
@@ -14,7 +15,6 @@ public class Cart {
         System.out.println("Cart is created");
     }
 
-    @Autowired
     public void addProduct(Product product) {
         if (products == null) {
             products = new ArrayList<>();

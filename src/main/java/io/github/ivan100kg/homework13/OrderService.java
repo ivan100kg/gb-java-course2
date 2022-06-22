@@ -3,7 +3,6 @@ package io.github.ivan100kg.homework13;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
 public class OrderService {
     public OrderService() {
         System.out.println("OrderService is created");
