@@ -3,23 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans.xsd
-	http://www.springframework.org/schema/context
-	http://www.springframework.org/schema/context/spring-context.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="simpleBean" class="io.github.ivan100kg.lesson13.current.SimpleBean"/>
-
-    <bean id="animalsClassNameGenerator" class="io.github.ivan100kg.lesson13.current.AnimalsClassNameGenerator" />
-
-    <bean id="shapesClassNameGenerator" class="io.github.ivan100kg.lesson13.current.ShapesClassNameGenerator" />
-
-    <bean id="javaCodeCreator" class="io.github.ivan100kg.lesson13.current.JavaCodeCreator">
-        <property name="classNameGenerator">
-            <ref bean="animalsClassNameGenerator" />
-        </property>
-    </bean>
-
-    <bean id="cppCodeCreator" class="io.github.ivan100kg.lesson13.current.CppCodeCreator">
-        <constructor-arg ref="shapesClassNameGenerator" />
-    </bean>
+    <context:component-scan base-package="io.github.ivan100kg.lesson13.current.my"/>
+    <context:property-placeholder location="myApp.properties"/>
 </beans>

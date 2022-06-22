@@ -1,8 +1,8 @@
 package io.github.ivan100kg.lesson13.current;
 
+import io.github.ivan100kg.lesson13.current.my.SimpleBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AppSpring {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class AppSpring {
 //        CodeCreator javaCC = context.getBean("javaCodeCreator", CodeCreator.class);
 //        System.out.println(javaCC.getClassExample());
 
-        io.github.ivan100kg.lesson13.current.SimpleBean simpleBean = context.getBean("simpleBean", io.github.ivan100kg.lesson13.current.SimpleBean.class);
+        SimpleBean simpleBean = context.getBean("simpleBean", SimpleBean.class);
         simpleBean.doSomething();
 
         com.geekbrains.spring.current.CodeCreator javaCodeCreator = context.getBean("javaCodeCreator", com.geekbrains.spring.current.CodeCreator.class);
