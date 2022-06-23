@@ -5,14 +5,11 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Component
 public class ProductService {
     private List<Product> products;
-    private Map<String, Product> map;
 
     public ProductService() {
         System.out.println("Create products");
@@ -22,7 +19,6 @@ public class ProductService {
     private void init() {   // после создания бина
         System.out.println("Products were added");
         products = new ArrayList<>();
-        map = new HashMap<>();
         products.add(new Product(1, "Bananas", 140));
         products.add(new Product(2, "Vodka", 270));
         products.add(new Product(3, "Beer", 67));
@@ -33,9 +29,6 @@ public class ProductService {
         products.add(new Product(8, "Cookies", 30));
         products.add(new Product(9, "Potato", 45));
         products.add(new Product(10, "Milk", 60));
-        for (Product product : products) {
-            map.put(product.getTitle(), product);
-        }
     }
 
     public void printAll() {
@@ -43,6 +36,6 @@ public class ProductService {
     }
 
     public Product findByTitle(String title) {
-        return map.get(title);
+        return products.stream().filter(product -> product.getTitle().equals(title)).findFirst().orElse(null);
     }
 }
